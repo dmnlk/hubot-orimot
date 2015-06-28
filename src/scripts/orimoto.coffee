@@ -15,6 +15,9 @@ module.exports = (robot) ->
   robot.respond /それある/i, (msg) ->
 	msg.send "https://pbs.twimg.com/media/CHtVUKbUkAAk0pB.jpg"
 
+  robot.hear /結果にコミット/i, (msg) ->
+	msg.send "https://pbs.twimg.com/media/CHtVUKbUkAAk0pB.jpg"
+
   robot.respond /クラウド/i, (msg) ->
 	msg.send "それマジ強そう!"
 
