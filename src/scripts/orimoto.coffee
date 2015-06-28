@@ -12,15 +12,15 @@
 
 module.exports = (robot) ->
 
-  robot.respond /それある/i, (msg) ->
+  robot.hear /それある/i, (msg) ->
 	msg.send "https://pbs.twimg.com/media/CHtVUKbUkAAk0pB.jpg"
 
   robot.hear /結果にコミット/i, (msg) ->
 	msg.send "https://pbs.twimg.com/media/CHtVUKbUkAAk0pB.jpg"
 
-  robot.respond /クラウド/i, (msg) ->
+  robot.hear /クラウド/i, (msg) ->
 	msg.send "それマジ強そう!"
 
-  robot.respond /バッファ/i, (msg) ->
+  robot.hear /バッファ/i, (msg) ->
 	msg.send "バッファ!それマジ超牛!!"
 
