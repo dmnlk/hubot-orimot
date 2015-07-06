@@ -23,4 +23,7 @@ module.exports = (robot) ->
 
   robot.hear /バッファ/i, (msg) ->
 	msg.send "バッファ!それマジ超牛!!"
+  
+  robot.hear /やっはろー/i, (msg) ->
+	msg.send "はろはろ〜"
 
